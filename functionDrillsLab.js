@@ -11,8 +11,10 @@
   Call the function.
 */
 
-//CODE HERE
-
+function helloWorld() {
+  console.log('Hello World!')
+}
+helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -20,8 +22,10 @@
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
-
+const jsNinja = () => {
+  return 'I am a JavaScript ninja!'
+}
+jsNinja
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -30,8 +34,10 @@
   Call the function, passing in an argument.
 */
 
-//CODE HERE
-
+function printName(name) {
+  console.log(name)
+}
+printName('Cameron')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -44,8 +50,10 @@
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
-
+function greeting(name) {
+  console.log('Hello,' + name,)
+}
+greeting('Jake')
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -79,9 +87,7 @@
   Uncomment the answer underneath.
 */
 
-const exclaim = function(str) {
-  return str.toUpperCase() + '!!!'
-}
+const exclaim = (str) => str.toUpperCase() + '!!!'
 
 // arrow
 // declaration
